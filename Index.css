@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(Bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+.container{
+	border: 12px solid black; 
+	color: white;
+	position: absolute;
+	top: 45%;
+	left: 43%;
+}
+.container h1{
+	font-size: 40px;
+	border-bottom: 5px solid purple;
+	margin-bottom: 20px;
+	padding: 13px 0;
+}
+.box{
+	border: 2px solid purple;
+	width: 100%;
+}
