@@ -2,24 +2,53 @@
 	margin: 0;
 	padding: 0;
 }
+
 body{
 	background: url(Bg.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
-.container{
-	border: 12px solid black; 
+
+.container{ 
 	color: white;
 	position: absolute;
-	top: 45%;
-	left: 43%;
+	top: 20%;
+	left: 40%;
 }
+
 .container h1{
+	display: inline-block;
 	font-size: 40px;
-	border-bottom: 5px solid purple;
-	margin-bottom: 20px;
-	padding: 13px 0;
 }
+
 .box{
-	border: 2px solid purple;
 	width: 100%;
+	margin: 22px 0px;
+}
+
+.box input{
+	background: none;
+	border-radius: 10px;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 20px;
+	color: white;
+	padding: 5px 10px;
+}
+
+.btn{
+	cursor: pointer;
+	outline: none;
+	margin: 12px 0;
+	padding: 10px 21px;
+	border-radius: 10px;
+	color: white;
+	background: transparent;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.btn:hover{
+	color: black;
+	background: white;
 }
